@@ -1,0 +1,12 @@
+{
+  "name": "my-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync start --server --no-notify --file='index.html, *.css, *.js'"
+  },
+  "dependencies":  {
+    "browser-sync": "^2.27.7"
+  }
+}
